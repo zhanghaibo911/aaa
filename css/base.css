@@ -1,0 +1,43 @@
+		body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,input,button {
+			margin: 0;
+			padding: 0;
+		}
+		h1,h2,h3,h4,h5,h6,b,strong,i,em {
+			font-size: 16px;
+			font-weight: normal;
+			font-style: normal;
+		}
+		a {
+			color: #000;
+			text-decoration: none;
+		}
+		ul,ol {
+			list-style: none;
+		}
+		input {
+			outline: none;
+		}
+		input,img,select {
+			vertical-align: top;
+		}
+		.last-bottom {
+			border-bottom: none !important;
+		}
+		.last-right {
+			border-right: none !important;
+		}
+		.fl {
+			float: left;
+		}
+		.fr {
+			float: right;
+		}
+		/* 清除浮动 */
+		.clearfix:after {
+			content: "";
+			display: block;
+			clear: both;
+		}
+		.clearfix {
+			zoom: 1;
+		}
